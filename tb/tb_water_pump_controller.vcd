@@ -1,0 +1,290 @@
+$date
+	Fri Oct 23 20:47:57 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_water_pump_controller $end
+$var wire 1 ! pump_on $end
+$var wire 1 " fault $end
+$var wire 1 # alarm $end
+$var reg 1 $ clk $end
+$var reg 1 % emergency $end
+$var reg 1 & flow_ok $end
+$var reg 1 ' level_full $end
+$var reg 1 ( level_low $end
+$var reg 1 ) power_ok $end
+$var reg 1 * reset $end
+$scope module dut $end
+$var wire 1 $ clk $end
+$var wire 1 % emergency $end
+$var wire 1 & flow_ok $end
+$var wire 1 ' level_full $end
+$var wire 1 ( level_low $end
+$var wire 1 ) power_ok $end
+$var wire 1 ! pump_on $end
+$var wire 1 * reset $end
+$var wire 3 + state [2:0] $end
+$var wire 1 , restart_done $end
+$var wire 1 - flow_timeout $end
+$var wire 1 " fault $end
+$var wire 1 # alarm $end
+$scope module u_flow_timer $end
+$var wire 1 $ clk $end
+$var wire 1 . enable $end
+$var wire 1 & flow_ok $end
+$var wire 1 * reset $end
+$var reg 3 / counter [2:0] $end
+$var reg 1 - timeout $end
+$upscope $end
+$scope module u_pump_fsm $end
+$var wire 1 $ clk $end
+$var wire 1 % emergency $end
+$var wire 1 & flow_ok $end
+$var wire 1 - flow_timeout $end
+$var wire 1 ' level_full $end
+$var wire 1 ( level_low $end
+$var wire 1 ) power_ok $end
+$var wire 1 * reset $end
+$var wire 1 , restart_done $end
+$var reg 3 0 next_state [2:0] $end
+$var reg 3 1 state [2:0] $end
+$upscope $end
+$scope module u_restart_timer $end
+$var wire 1 $ clk $end
+$var wire 1 2 enable $end
+$var wire 1 * reset $end
+$var reg 3 3 counter [2:0] $end
+$var reg 1 , done $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 3
+02
+b0 1
+b0 0
+b0 /
+0.
+0-
+0,
+b0 +
+1*
+1)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5000
+1$
+#10000
+0$
+#15000
+1$
+#20000
+b1 0
+0$
+1(
+0*
+#25000
+1!
+1.
+b1 +
+b1 1
+1$
+#26000
+b10 0
+1&
+#30000
+0$
+#35000
+0.
+b10 +
+b10 1
+1$
+#36000
+b0 0
+1'
+#40000
+0$
+#45000
+0!
+b0 +
+b0 1
+1$
+#46000
+b1 0
+0&
+0'
+1(
+#50000
+0$
+#55000
+1!
+1.
+b1 +
+b1 1
+1$
+#60000
+0$
+#65000
+b1 /
+1$
+#70000
+0$
+#75000
+b10 /
+1$
+#80000
+0$
+#85000
+b11 /
+1$
+#90000
+0$
+#95000
+b100 /
+1$
+#100000
+0$
+#105000
+b11 0
+1-
+1$
+#110000
+0$
+#115000
+0!
+1"
+1#
+0.
+b11 +
+b11 1
+1$
+#116000
+0(
+#120000
+0$
+#125000
+0-
+b0 /
+1$
+#130000
+0$
+#135000
+b0 0
+0"
+0#
+b0 +
+b0 1
+1*
+1$
+#140000
+0$
+#145000
+1$
+0*
+#146000
+b1 0
+1&
+1(
+#150000
+0$
+#155000
+b10 0
+1!
+1.
+b1 +
+b1 1
+1$
+#156000
+b100 0
+0)
+#160000
+0$
+#165000
+0!
+0.
+b100 +
+b100 1
+1$
+#166000
+b101 0
+1)
+#170000
+0$
+#175000
+12
+b101 +
+b101 1
+1$
+#180000
+0$
+#185000
+b1 3
+1$
+#190000
+0$
+#195000
+b10 3
+1$
+#200000
+0$
+#205000
+b11 3
+1$
+#210000
+0$
+#215000
+b100 3
+1$
+#220000
+0$
+#225000
+b1 0
+1,
+1$
+#230000
+0$
+#235000
+b10 0
+1!
+02
+1.
+b1 +
+b1 1
+1$
+#236000
+b11 0
+1%
+#240000
+0$
+#245000
+0!
+1"
+1#
+0.
+b11 +
+b11 1
+0,
+b0 3
+1$
+#250000
+0$
+#255000
+1$
+#260000
+0$
+#265000
+1$
+#266000

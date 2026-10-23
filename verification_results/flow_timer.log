@@ -1,0 +1,8 @@
+VCD info: dumpfile tb_flow_timer.vcd opened for output.
+PASS: Timer disabled
+PASS: Flow timeout detected
+PASS: Timeout cleared when flow detected
+PASS: Second flow timeout detected
+----------------------------------------
+FLOW TIMER TEST COMPLETE
+----------------------------------------

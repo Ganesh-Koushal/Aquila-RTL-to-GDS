@@ -1,0 +1,7 @@
+# Compiled simulation executables
+tb/*_sim
+src/design_sim
+
+# Temporary files
+*.o
+*.out

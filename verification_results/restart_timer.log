@@ -1,0 +1,8 @@
+VCD info: dumpfile tb_restart_timer.vcd opened for output.
+PASS: Restart timer disabled
+PASS: Restart delay completed
+PASS: Done cleared after disabling timer
+PASS: Second restart delay completed
+----------------------------------------
+RESTART TIMER TEST COMPLETE
+----------------------------------------

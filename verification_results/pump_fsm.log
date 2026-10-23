@@ -1,0 +1,16 @@
+VCD info: dumpfile tb_pump_fsm.vcd opened for output.
+PASS:                                                                                                                                                                                            Reset -> IDLE
+PASS:                                                                                                                                                                                    Low tank -> FLOW_WAIT
+PASS:                                                                                                                                                                                 Flow detected -> RUNNING
+PASS:                                                                                                                                                                                        Full tank -> IDLE
+PASS:                                                                                                                                                                              Low tank -> FLOW_WAIT again
+PASS:                                                                                                                                                                                    Flow timeout -> FAULT
+PASS:                                                                                                                                                                                    Fault remains latched
+PASS:                                                                                                                                                                               Reset clears FAULT -> IDLE
+PASS:                                                                                                                                                                                 Power loss -> POWER_FAIL
+PASS:                                                                                                                                                                                Power restored -> RESTART
+PASS:                                                                                                                                                                 Restart complete + low tank -> FLOW_WAIT
+PASS:                                                                                                                                                                                       Emergency -> FAULT
+----------------------------------------
+PUMP FSM TEST COMPLETE
+----------------------------------------

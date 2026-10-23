@@ -1,0 +1,16 @@
+VCD info: dumpfile tb_water_pump_controller.vcd opened for output.
+PASS: Low tank -> Pump ON
+PASS: Flow detected -> Pump continues
+PASS: Full tank -> Pump OFF
+PASS: Second startup -> Pump ON
+PASS: No flow -> Pump OFF + Alarm + Fault
+PASS: Fault remains latched
+PASS: Reset clears fault
+PASS: Pump restarted
+PASS: Power failure -> Pump OFF
+PASS: Power recovery -> Restart delay active
+PASS: Restart delay complete -> Pump ON
+PASS: Emergency -> Pump OFF + Alarm + Fault
+========================================
+TOP-LEVEL CONTROLLER TEST COMPLETE
+========================================
